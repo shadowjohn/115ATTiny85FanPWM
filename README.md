@@ -88,7 +88,7 @@ OCR1A = outDuty;
 ### 1. 7V~20V 轉穩定 5V
 這張圖是獨立的降壓/穩壓參考，用來提供 `ATTiny85` 與控制電路穩定的 `5V` 電源。
 
-<img src="circuit12to5.png" alt="7V~20V 轉 5V 穩壓電路">
+<img src="screenshot/circuit12to5.png" alt="7V~20V 轉 5V 穩壓電路">
 
 重點：
 - 上排輸入為 `7V~20V`
@@ -98,7 +98,7 @@ OCR1A = outDuty;
 ### 2. PWM 風扇控制電路
 這張圖是完整的風扇控制接線，包含 `ATTiny85`、可變電阻、PWM 輸出級與 4 線風扇。
 
-<img src="circuit_PWM.png" alt="ATTiny85 PWM 風扇控制電路">
+<img src="screenshot/circuit_PWM.png" alt="ATTiny85 PWM 風扇控制電路">
 
 重點：
 - `PB4` 接 `10K VR`，用來調整速度
